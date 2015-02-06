@@ -1,5 +1,5 @@
-#zJiaJun.github.io
+#lukedemons.github.io
 
 
-##[Blog](http://www.9leg.com/)
+##[Blog](http://lukedemons.github.com/)
 

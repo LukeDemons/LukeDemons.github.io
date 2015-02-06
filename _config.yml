@@ -39,10 +39,10 @@ timezone:      null
 
 
 #Site config
-title: 9leg
-description: java技术文章
-keywords: Java
-url: http://9leg.com
+title: Yan
+description: personal blog
+keywords: Java Life
+url: http://lukedemons.github.com
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
@@ -61,8 +61,8 @@ nav:
 
 #Author config
 author:
-    name: zhujiajun
-    email: leoneyes2012@gmail.com
+    name: 闫创
+    email: yanchuang1994@gmail.com
     imageLink: /images/header.jpg
     simpleIntro: 贵在坚持 让梦想照进现实
     detailIntro:
