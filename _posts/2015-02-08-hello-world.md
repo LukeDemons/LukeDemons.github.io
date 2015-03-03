@@ -9,6 +9,7 @@ category: "life"
 
 ## 环境搭建
 
+![github-jekyll](/images/github-jekyll.png "github-jekyll")
 我采用的是[github](https://github.com/ "github")+[jekyll](http://jekyllrb.com/ "jekyll")，**免费**且**不限流量**，网上有大量的资料供查找，教程都是手把手的，不再赘述。（听说[hexo](http://hexo.io/ "hexo")更方便一点，有兴趣的可以试一试
 
 ## 内容设想

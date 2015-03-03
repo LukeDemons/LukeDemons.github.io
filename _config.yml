@@ -77,7 +77,7 @@ follow:
   - class: icon-rss
     url: /atom.xml
   - class: icon-weibo
-    url: http://weibo.com/u/2609477805/
+    url: http://weibo.com/2609477805/
   - class: icon-facebook
     url: http://facebook.com/
   - class: icon-github-alt
@@ -126,8 +126,3 @@ disqus:
 duoshuo:
   config: false
   id: lukedemons
-
-#baidu share config
-baiduShare:
-  config: false
-  

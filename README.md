@@ -1,5 +1,5 @@
 #lukedemons.github.io
 
 
-##[Blog](http://lukedemons.github.com/)
+##[Personal Blog](http://lukedemons.github.com/)
 
