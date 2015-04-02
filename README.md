@@ -1,5 +1,4 @@
-#lukedemons.github.io
+# 个人博客
+# lukedemons.github.io
 
-
-##[Personal Blog](http://lukedemons.github.com/)
-
+## [Personal Blog](http://lukedemons.github.com/)

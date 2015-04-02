@@ -1,128 +1,23 @@
-# Where things are
-source:       .
-destination:  ./_site
-plugins:      ./_plugins
-layouts:      ./_layouts
-paginate:     8
+markdown: kramdown
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: page/:num
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-textile_ext:  "textile"
-
-# Filtering Content
-show_drafts:  null
-limit_posts:  0
-future:       true
-unpublished:  false
-
-# Conversion
-markdown:     kramdown
-highlighter:  pygments
-lsi:          false
-excerpt_separator: "\n\n"
-
-# Serving
-detach:       false
-port:         4000
-host:         127.0.0.1
-baseurl:      "" # does not include hostname
-
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-
-#Site config
-title: Yan
-description: personal blog
-keywords: Java Life
-#url: http://127.0.0.1:4000 #本地调试
-url: http://lukedemons.github.io
-feed: /atom.xml
-favicon: /images/shortcut.jpg
-
-#Nav config
-nav:
-  - text: 首页
-    url: /index.html
-  - text: 分类目录 
-    url: /categories.html
-  - text: 文章归档
-    url: /archives.html
-  - text: 联系我
-    url: /contact.html
-  - text: 友情链接
-    url: /links.html
-
-#Author config
+blog:
+    name:              LukeDemons
+    description:       a green boy
+    title:             唱响创之歌
+    url:               lukedemons.github.io
+    duoshuo:           lukedemons
+    tongji:            627ae7154a273bb9b736aeedc26308f3
+    qiniu:             7xie8u.com1.z0.glb.clouddn.com
 author:
-    name: 闫创
-    email: yanchuang1994@gmail.com
-    imageLink: /images/header.jpg
-    simpleIntro: 我是「闫创」，京城学僧党，毛头小子一直在折腾。
-    detailIntro:
-      <p>Java党 喜欢鼓捣酷酷的玩意儿。</p>
-      <p>保研本校(USTB)感觉鄙校CS挺渣但是可以凑合读。</p>
-      <p>现在大四已经开始帮导师搬砖，希望完成项目(类外包)<br/>以外可以多一些内功上的修炼，欢迎互相学习交流。</p>
-      <p>ps:文章中有写的不准确的地方请务必告诉我，不然我会顺着网线过去掐死你。</p>
-
-#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-follow:
-  - class: icon-rss
-    url: /atom.xml
-  - class: icon-weibo
-    url: http://weibo.com/2609477805/
-  - class: icon-facebook
-    url: http://facebook.com/
-  - class: icon-github-alt
-    url: https://github.com/LukeDemons
-  - class: icon-google-plus
-    url: https://plus.google.com/116595571760191938657/about
-
-#Links
-customLinks:
-  - item:
-    - text: 技术小黑屋
-      url: http://droidyue.com/
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
-    message: Friends    
-  - item:
-    - text: Java Code Geeks
-      url: http://www.javacodegeeks.com/
-    - text: Web Developer
-      url: http://www.fromdev.com/
-    - text: BeginnersBook
-      url: http://beginnersbook.com/
-    - text: Mkyong
-      url: http://www.mkyong.com/
-    - text: Java By Nataraj
-      url: http://javabynataraj.blogspot.in/
-    message: About Java
-
-#googleAnaly, your id link UA-12345678-X
-googleAnaly:
-  config: false
-  id: UA-58146229-1
-
-#baidu tongji
-baiduTongji:
-  config: true
-  id: 627ae7154a273bb9b736aeedc26308f3
-
-#comment config
-disqus:
-  config: true
-  id: lukedemons
-
-duoshuo:
-  config: false
-  id: lukedemons
+    name:              LukeDemons
+    email:             yanchuang1994@gmail.com
+    weibo:             http://weibo.com/2609477805/
+    github:            https://github.com/LukeDemons
+    logo:              /res/img/header.jpg
+    douban:
+        name:          101952310
+        key:           # 豆瓣API Key
