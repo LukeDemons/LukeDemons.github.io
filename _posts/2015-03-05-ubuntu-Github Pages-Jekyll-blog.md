@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubuntu+Github Pages+Jekyll实验环境搭建
-date: 2015-08-04
+date: 2015-03-05
 category: "Linux"
 ---
 
