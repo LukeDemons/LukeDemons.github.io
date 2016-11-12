@@ -1,23 +1,27 @@
-markdown: kramdown
-highlighter: pygments
-permalink: blog/:year/:month/:day/:title.html
-paginate: 6
-paginate_path: page/:num
+# Site settings
+title: '唱响创之歌'  # Your Title
+tagline: 'a green boy'  # A brief tagline for your site
+timezone: 'Asia/Shanghai'
+destination: ./_site
 
-blog:
-    name:              LukeDemons
-    description:       a green boy
-    title:             唱响创之歌
-    url:               lukedemons.github.io
-    duoshuo:           lukedemons
-    tongji:            7bd29e292fbb25b8d61138a9d6182d41
-    qiniu:             7xie8u.com1.z0.glb.clouddn.com
-author:
-    name:              LukeDemons
-    email:             yanchuang1994@gmail.com
-    weibo:             http://weibo.com/2609477805/
-    github:            https://github.com/LukeDemons
-    logo:              /res/img/header.jpg
-    douban:
-        name:          101952310
-        key:           # 豆瓣API Key
+# Build settings
+encoding: UTF-8
+markdown: kramdown
+#for publish
+#highlighter: pygments
+#for local
+#highlighter: true
+baseurl: # the subpath of your site, e.g. /blog/
+codeurl: /code/
+fragmenturl: /fragment/
+
+# Personal info
+avatar: header.jpg
+email: yanchuang1994@gmail.com
+github: https://github.com/LukeDemons
+weibo: //weibo.com/yanchuang9412
+music: //music.163.com/#/user/home?id=31071885
+twitter: https://twitter.com/yanchuang9412
+
+# Logo setting
+logocolor: '#000'

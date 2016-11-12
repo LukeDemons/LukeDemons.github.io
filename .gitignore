@@ -1,2 +1,8 @@
 # 忽略webstorm配置文件
 .idea/
+
+# 取消生成的网站文件
+_site/
+
+# 取消npm依赖
+node_modules/
