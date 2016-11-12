@@ -6,3 +6,5 @@ _site/
 
 # 取消npm依赖
 node_modules/
+
+.DS_Store
